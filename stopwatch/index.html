@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="stop-watch">
+      <h1 id="displayTime">00:00:00</h1>
+      <div class="buttons">
+        <abbr title="pause"
+          ><img src="images/stop.png" alt="Not found" onclick="pause_count()"
+        /></abbr>
+        <abbr title="start">
+          <img
+            src="images/start.png"
+            alt="Not found"
+            id="start"
+            onclick="start_count()"
+        /></abbr>
+        <abbr title="reset">
+          <img src="images/reset.png" alt="Not found" onclick="restart_count()"
+        /></abbr>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
